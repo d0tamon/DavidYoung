@@ -21,7 +21,7 @@ token = cipher.encrypt(password_byte)
 
 
 
-os.chdir(r"C:\Users\SahilPatil\OneDrive - Partners MGU\Desktop\Python Files\Passwords")
+os.chdir(r"C:\Users\Username\Desktop\Python Files\Passwords")
 with open("key.txt", "wb") as file:
     file.write(key)
 
